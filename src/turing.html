@@ -1,0 +1,70 @@
+<html>
+<head>
+	<title>Turing Machine</title>
+	<link href='http://fonts.googleapis.com/css?family=Ropa+Sans:400,400italic|Oswald:300' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" media="screen" href="css/turing-machine.css" />
+
+</head>
+<body>
+<div class="wrapper">
+	<h1>Javascript Turing Machine</h1>
+	<h2>State machine (program)</h2>
+	<div id="program-input">
+		<form id="program-input" name="program-input">
+			<select id="program-select">
+				<option value="0-b-1">Turing's first example (0-1-0-1 ...)</option>
+				<!-- <option value="busy-beaver">Busy beaver</option> -->
+				<!-- <option value="copy">Copy routine</option> -->
+			</select>
+		</form>
+	</div>
+	<div class="inner-container">
+		<div class="control">
+			<button id="reset" type="button">Reset</button>
+			<button id="step" type="button">Step</button>
+			<button id="run" type="button">Run</button>
+		</div>
+	</div>
+	<div style="clear:both;" />
+	<h2>Current state</h2>
+	<div id="state-machine" class="inner-container">
+		<table>
+			<thead>
+					<th>State id</th>
+					<th>Tape symbol</th>
+					<th>Print operation</th>
+					<th>Tape motion</th>
+					<th>Next state</th>
+			</thead>
+			<tbody>
+				<tr id="s0">
+					<td>S0</td>
+					<td>BLANK</td>
+					<td>ERASE</td>
+					<td>RIGHT</td>
+					<td>S1</td>					
+				</tr>
+				<tr id="s1" class="current-state">
+					<td>S1</td>
+					<td>BLANK</td>
+					<td>P1</td>
+					<td>LEFT</td>
+					<td>S0</td>					
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<h3>Tape</h3>
+	<div class="tape-reel">
+		<div id="tape">
+			<div id="start-cell" class="tape-cell current-cell">0</div>
+		</div>
+	</div>
+	<div style="clear:both;" />
+</div> <!-- end wrapper -->
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script src="js/turing-machine.js"></script>
+<script src="js/ui.js"></script> <!-- ui.js assumes turing-machine.js has been loaded already. -->
+</body>
+</html>

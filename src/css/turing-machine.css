@@ -1,0 +1,142 @@
+
+
+/* Palette color codes */
+/* Palette URL: http://colorschemedesigner.com/#3P61K5BK-ebyK */
+
+.primary-1 { background-color: #B5BCD6 }
+.primary-2 { background-color: #A4AABE }
+.primary-3 { background-color: #7785B5 }
+.primary-4 { background-color: #D2D8EC }
+.primary-5 { background-color: #D9DEEC }
+
+.secondary-a-1 { background-color: #BCB7D8 }
+.secondary-a-2 { background-color: #AAA6C0 }
+.secondary-a-3 { background-color: #8378B6 }
+.secondary-a-4 { background-color: #D7D3ED }
+.secondary-a-5 { background-color: #DEDBED }
+
+.secondary-b-1 { background-color: #AFC4D1 }
+.secondary-b-2 { background-color: #9FAFBA }
+.secondary-b-3 { background-color: #7398B1 }
+.secondary-b-4 { background-color: #CEDFEA }
+.secondary-b-5 { background-color: #D6E2EA }
+
+.complement-1 { background-color: #FFF1D2 }
+.complement-2 { background-color: #E3D8C0 }
+.complement-3 { background-color: #D7C08A }
+.complement-4 { background-color: #FFF5DF }
+.complement-5 { background-color: #FFF8E8 }
+
+
+body
+{
+	font-size:100%;
+}
+
+h1
+{
+	font-family: 'Ropa Sans', sans-serif;
+	font-style:normal;
+	font-size:1.5em;
+
+	position:relative;
+	left:10px;
+	top:4px;
+}
+
+h2
+{
+	position:relative;
+	left:15px;
+	top:4px;
+
+	font-size:1.25em;
+}
+
+
+h3
+{
+	position:relative;
+	left:15px;
+	top:4px;
+	font-size:1.15em;
+}
+
+table
+{
+	font-family: 'Oswald', sans-serif;
+	font-style:normal;
+	font-size:1.2em;
+}
+
+thead
+{
+	font-size:1.21em;
+}
+
+select
+{
+	font-size:1em;	
+}
+
+button
+{
+	font-size:1em;		
+}
+
+.wrapper 
+{
+	width: 32em;
+	border-style:none;
+	border-width:1px;
+	border-color:#a0a0a0;
+
+	-moz-border-radius: 0.4em 0.4em 0.4em 0.4em;
+	border-radius: 0.4em 0.4em 0.4em 0.4em;
+}
+
+.container-heading
+{
+	font-family: 'Ropa Sans', sans-serif;
+	font-style:italic;
+	color: rgb(255,255,255);
+
+	height: 2em;
+	width: 32em;
+	-moz-border-radius: 0.5em 0.5em 0.5em 0.5em;
+	border-radius: 0.5em 3.9em 0.5em 0.5em;
+}
+
+.inner-container
+{
+}
+
+.control
+{
+	float:left;	
+}
+
+.tape-reel
+{
+
+}
+
+.current-cell
+{
+	background-color: #D7C08A;
+}
+
+.tape-cell
+{
+	font-family: 'Oswald', sans-serif;
+	font-size:2em;
+	border-style:dotted;
+	border-width:1px;
+	float:left;
+	width:40px;
+	height:40px;
+	margin:2px;
+	text-align:center;
+}
+
+
